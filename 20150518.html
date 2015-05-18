@@ -22,7 +22,22 @@
 
     <script>
       var person = function() {
+		var obj = {
+			name: '',
+			age: ''
+		};
         // code here....
+		obj.setName = function(name) {
+			this.name = name;
+			return this;
+		};
+		
+		obj.setAge = function(age) {
+			this.age = age;
+			return this;
+		};
+		
+		return obj;
       }
     </script>
     <script> // your tests go here
