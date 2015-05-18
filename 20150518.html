@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
   </head>
   <body>
-    <p>
-      Create a function person, which can be chained. The methods are: #setName() and #setAge().
-    </p>
-    <p>
-      The chain should return an object with properties #.name and #.age.
-    </p>
+    <h1> Morning Challenge </h1>
+    <ol>
+      <li>
+        Create a function person, which can be chained. The methods are: #setName() and #setAge()
+      </li>
+      <li>
+        The chain should return an object with properties #.name and #.age.
+      </li>
+    </ol>
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
     <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
@@ -25,7 +28,6 @@
     <script> // your tests go here
 
     test("An object of type person has properties name and age", function(assert) {
-      var expected = { name:"Amy", age:27};
       var result   = person().setName('Amy').setAge(27);
       assert.equal(result.name, 'Amy', "person's name is Amy");
       assert.equal(result.age, 27, "Amy is 27");
