@@ -13,18 +13,17 @@
 
     <script>
       var person = function() {
-
+        // code here....
       }
     </script>
     <script> // your tests go here
 
     test("An object of type person has properties name and age", function(assert) {
       var expected = { name:"Amy", age:27};
-      var result   = person(); // .setName('Amy').setAge(27);
+      var result   = person().setName('Amy').setAge(27);
       assert.equal(result.name, 'Amy', "person's name is Amy");
       assert.equal(result.age, 27, "Amy is 27");
     });
     </script>
-
   </body>
 </html>
