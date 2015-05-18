@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Morning Challenge!</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
+  </head>
+  <body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
+
+    <script>
+      var person = function() {
+
+      }
+    </script>
+    <script> // your tests go here
+
+    test("An object of type person has properties name and age", function(assert) {
+      var expected = { name:"Amy", age:27};
+      var result   = person(); // .setName('Amy').setAge(27);
+      assert.equal(result.name, 'Amy', "person's name is Amy");
+      assert.equal(result.age, 27, "Amy is 27");
+    });
+    </script>
+
+  </body>
+</html>
