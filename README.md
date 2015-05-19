@@ -8,9 +8,10 @@ When you open the html file you should expect to see a ***failing test***
 
 The challenge is to ***make the test pass***.
 
-
 The order of the challenges is newest first  
 (i.e. reverse chronological, or oldest at the bottom of this readme ...)
+
+To view the challenge in your browser visit: http://morning-challenge.herokuapp.com/
 
 ## Tuesday 19th May 2015 > 20150519.html
 
