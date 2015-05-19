@@ -20,6 +20,11 @@ Implement JQuery's removeClass method to remove a CSS class from a DOM element.
 
 (*a* ***practical example*** *of using* ***method chaining***)
 
+When you open the file, you should expect to see 3 failing tests:
+
+![fac-morning-challenge-20150519-failing-tests](https://cloud.githubusercontent.com/assets/194400/7702141/e2a3b348-fe25-11e4-9b89-f707d1e4dbf4.png)
+
+
 
 ### Background Reading
 
