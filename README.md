@@ -14,7 +14,10 @@ The order of the challenges is newest first
 
 ## Tuesday 19th May 2015 > 20150519.html
 
-Implementing JQuery's addClass & removeClass methods to apply a class to a DOM element.  
+Implement JQuery's addClass methods to apply a class to a DOM element.  
+
+Implement JQuery's removeClass method to remove a CSS class from a DOM element.
+
 (*a* ***practical example*** *of using* ***method chaining***)
 
 

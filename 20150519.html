@@ -5,14 +5,15 @@
     <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
     <title>Implement JQuery addClass() Method!</title>
     <style>
-      .fail {
-        color: #EE5757;
-      }
       .pass {
         color: rgb(197,231,71);
         background-color: green;
       }
-      #div1 {
+      .fail {
+        color: #EE5757;
+        background-color: pink;
+      }
+      div {
         border: 1px solid black;
         padding: 20px;
         margin: 20px;
@@ -20,31 +21,51 @@
     </style>
   </head>
   <body>
-    <h1 class='fail' id='h'> Morning Challenge - implement the JQuery addClass() method</h1>
+    <h2> Morning Challenge - implement JQuery's addClass() &amp; removeClass() methods</h2>
     <ol>
       <li>read through: <a href="https://api.jquery.com/addclass/">https://api.jquery.com/addclass/</a> and implement it!
       </li>
+      <li>read through: <a href="https://api.jquery.com/removeclass/">https://api.jquery.com/removeclass/</a> and implement it!
+      </li>
+      <li>
+        Ensure that the methods are chainable such that<br/>
+        <pre>FAQuery('#div3').addClass('pass').removeClass('fail');</pre>
+        applies the pass class and removes the fail class from the element.
+      </li>
     </ol>
 
-    <div id='div1'>RESULT - MAKE ME GO GREEN!</div>
-    <br />
+    <p>if you have any questions, shout!</p>
+
+    <div id='div1'>Make #div1 Go GREEN!</div>
+
+    <div id='div2' class='fail pass'>Make #div2 Go GREEN!</div>
+
+    <div id='div3' class='fail'>Make #div3 Go GREEN!</div>
+
     <br />
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
     <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
 
     <script> // the
-      var Q = function(elementId) {
+      var FAQuery = function(selector) {
+        this.id = selector.replace('#','');
 
-        var that = { e : elementId };
-
-        that.addClass = function(className) {
+        this.addClass = function(className) {
           // your code goes here. GO!
-
+          this.elem = document.getElementById(this.id);
+          this.elem.className = this.elem.className + className;
           return this;
         }
 
-        return that;
+        this.removeClass = function(className) {
+          // your code goes here. GO!
+          this.elem = document.getElementById(this.id);
+          this.elem.className = this.elem.className.replace(className, '');
+          return this;
+        }
+
+        return this;
       }
     </script>
 
@@ -52,11 +73,34 @@
 
     test("Adds the CSS class 'pass' to div1", function(assert) {
 
-      Q('div1').addClass('pass'); // your job is to implement this above
+      FAQuery('#div1').addClass('pass'); // your job is to implement this above
 
-      var div1 = document.getElementById("div1");
-      assert.ok(div1.className === "pass", 'You applied the class "pass" to the div!');
+      var div = document.getElementById("div1");
+      console.log(div.className);
+      assert.ok(div.className.indexOf("pass") > -1, 'You applied the class "pass" to the div!');
     });
+
+
+    test("Remove the CSS class 'fail' to div2", function(assert) {
+
+      FAQuery('#div2').removeClass('fail'); // your job is to implement this above
+
+      var div = document.getElementById("div2");
+      console.log('>>>',div.className);
+      assert.ok(div.className.indexOf("fail") === -1, 'You removed the class "fail" from the div2!');
+    });
+
+    test("Adds CSS class 'pass' AND Remove CSS class 'fail' to div3", function(assert) {
+
+      FAQuery('#div3').addClass('pass').removeClass('fail'); // your job is to implement this above
+
+      var div = document.getElementById("div3");
+      assert.ok(div.className === "pass", 'You applied the class "pass" to the div!');
+      assert.ok(div.className.indexOf("fail") === -1, 'You removed the class "fail" from the div2!');
+
+    });
+
+
     </script>
   </body>
 </html>
