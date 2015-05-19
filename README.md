@@ -21,6 +21,11 @@ Implement JQuery's removeClass method to remove a CSS class from a DOM element.
 (*a* ***practical example*** *of using* ***method chaining***)
 
 
+### Background Reading
+
++ How does **JavaScript .prototype** work? http://stackoverflow.com/questions/572897/how-does-javascript-prototype-work
++ Namespacing patterns:
+http://addyosmani.com/blog/essential-js-namespacing/
 
 
 ## Monday 18th May 2015 > 20150518.html

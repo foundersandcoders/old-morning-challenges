@@ -29,7 +29,8 @@
       </li>
       <li>
         Ensure that the methods are chainable such that<br/>
-        <pre>FAQuery('#div3').addClass('pass').removeClass('fail');</pre>
+        <code>FAQuery('#div3').addClass('pass').removeClass('fail');</code>
+        <
         applies the pass class and removes the fail class from the element.
       </li>
     </ol>
@@ -43,25 +44,24 @@
     <div id='div3' class='fail'>Make #div3 Go GREEN!</div>
 
     <br />
+    <br />
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
     <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
 
     <script> // the
       var FAQuery = function(selector) {
-        this.id = selector.replace('#','');
+
+        this.id = selector.replace('#',''); // only works for id selectors
 
         this.addClass = function(className) {
           // your code goes here. GO!
-          this.elem = document.getElementById(this.id);
-          this.elem.className = this.elem.className + className;
+
           return this;
         }
-
         this.removeClass = function(className) {
           // your code goes here. GO!
-          this.elem = document.getElementById(this.id);
-          this.elem.className = this.elem.className.replace(className, '');
+
           return this;
         }
 
