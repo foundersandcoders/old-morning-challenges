@@ -28,10 +28,10 @@
       <li>read through: <a href="https://api.jquery.com/removeclass/">https://api.jquery.com/removeclass/</a> and implement it!
       </li>
       <li>
-        Ensure that the methods are chainable such that<br/>
+        <b>Ensure</b> that the methods are <em><b>chainable</b></em> such that<br/>
         <code>FAQuery('#div3').addClass('pass').removeClass('fail');</code>
-        <
-        applies the pass class and removes the fail class from the element.
+        <br />
+        ... applies the pass class and removes the fail class from the element.
       </li>
     </ol>
 
@@ -43,8 +43,7 @@
 
     <div id='div3' class='fail'>Make #div3 Go GREEN!</div>
 
-    <br />
-    <br />
+
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
     <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
@@ -52,16 +51,16 @@
     <script> // the
       var FAQuery = function(selector) {
 
-        this.id = selector.replace('#',''); // only works for id selectors
+        this.id = selector.replace('#',''); // only works for id selectors (for now!)
 
+        // implement addClass(className) method. keep it simple!
         this.addClass = function(className) {
-          // your code goes here. GO!
 
-          return this;
+          return this; // allows us
         }
-        this.removeClass = function(className) {
-          // your code goes here. GO!
+        // implement removeClass(className) method. keep it simple!
 
+        this.removeClass = function(className) {
           return this;
         }
 
@@ -76,7 +75,6 @@
       FAQuery('#div1').addClass('pass'); // your job is to implement this above
 
       var div = document.getElementById("div1");
-      console.log(div.className);
       assert.ok(div.className.indexOf("pass") > -1, 'You applied the class "pass" to the div!');
     });
 
@@ -86,7 +84,6 @@
       FAQuery('#div2').removeClass('fail'); // your job is to implement this above
 
       var div = document.getElementById("div2");
-      console.log('>>>',div.className);
       assert.ok(div.className.indexOf("fail") === -1, 'You removed the class "fail" from the div2!');
     });
 
