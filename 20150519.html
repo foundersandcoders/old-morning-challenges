@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Morning Challenge!</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
+  </head>
+  <body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
+
+    <script>
+      function $$ (query) {
+
+        var self     = {};
+        var that   = Object.create(self);
+        that.element = query;
+        
+        self.style = function (key, value) {
+            
+          that[key] = value;
+          return that;
+        };
+        
+        self.save = function(){
+            
+          return that;
+        };
+        
+        return that;
+      }
+    </script>
+    <script> // your tests go here
+
+      test("#", function(assert) {
+        var one   = $$("#one").style("color", "red").style("width", "100px");
+        var two   = $$("#two").style("color", "blue").style("width", "200px");
+
+        var expectedOne   = { element: '#one', color: 'red', width: '100px' };
+        var expectedTwo   = { element: '#two', color: 'blue', width: '200px' };
+
+        assert.equal(one.element, expectedOne.element, "select element is right");
+        assert.equal(one.color, expectedOne.color, "color element is right");
+        assert.equal(one.width, expectedOne.width, "width element is right");
+
+
+        assert.notEqual(two.color, expectedOne.color, "we didn't mess up stuff");
+      });
+    </script>
+  </body>
+</html>
