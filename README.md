@@ -8,12 +8,40 @@ When you open the html file you should expect to see a ***failing test***
 
 The challenge is to ***make the test pass***.
 
+## Setup
+
+#### Clone this repo:
+
+```sh
+git clone https://github.com/foundersandcoders/morning-challenge.git && cd morning-challenge
+```
+
+#### install the (node.js) dependencies:
+
+```sh
+npm install
+```
+#### Start the Static Server
+```sh
+
+```
 
 
-## Tuesday 19th May 2015 > 20150519.html
+## Tuesday 22nd September 2015 > /20150922/index.html
+
+### "Like A Boss"
+
+Your mission is to (*programatically*) search through the DOM
+of a page and find the article title containing the word "Boss".
+
+Start the static server `npm start` and then visit: http://localhost:8000/20150922/
+
+Now open the file: `20150922/index.html` and
+write the `findTitleContainingWord()` function that passes the test!
 
 
-
+As if the *challenge* is unclear, *ask* for clarification.  
+If the *solution* is not apparent to you, dust off your google/teamwork skills!
 
 <!-- old challenges
 

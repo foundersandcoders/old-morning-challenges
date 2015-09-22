@@ -21,7 +21,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
       // sets up the problem by loading the rss feed
-      $.getJSON('/20150922-hackernews-rss.json', function(response){
+      $.getJSON('hackernews-rss.json', function(response){
         var html = '';
         response.rss.channel[0].item.forEach(function(item) {
           html += '<li class="newsitem"><a href="' +item.link +'" >'+item.title +'</a></li>'
