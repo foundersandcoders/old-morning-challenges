@@ -1,0 +1,532 @@
+{
+  "rss": {
+    "$": {
+      "version": "2.0"
+    },
+    "channel": [
+      {
+        "title": [
+          "Hacker News"
+        ],
+        "link": [
+          "https:\/\/news.ycombinator.com\/"
+        ],
+        "description": [
+          "Links for the intellectually curious, ranked by readers."
+        ],
+        "item": [
+          {
+            "title": [
+              "Making Cython as easy as Python"
+            ],
+            "link": [
+              "https:\/\/github.com\/Russell91\/runcython"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 05:44:27 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256826"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256826\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Dialog Semiconductor to acquire Atmel for $4.6B"
+            ],
+            "link": [
+              "http:\/\/www.dialog-semiconductor.com\/content\/dialog-semiconductor-acquire-atmel-46-billion"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 05:10:45 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256733"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256733\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Fukushima"
+            ],
+            "link": [
+              "http:\/\/www.podniesinski.pl\/portal\/fukushima\/"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 03:01:11 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256419"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256419\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Researchers Could Have Uncovered Volkswagen\u2019s Emissions Cheat If Not for DMCA"
+            ],
+            "link": [
+              "https:\/\/www.eff.org\/deeplinks\/2015\/09\/researchers-could-have-uncovered-volkswagens-emissions-cheat-if-not-hindered-dmca"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 01:31:50 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256170"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256170\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Telegram Now Seeing 12B Daily Messages, Up from 1B in February"
+            ],
+            "link": [
+              "http:\/\/techcrunch.com\/2015\/09\/21\/telegram-now-seeing-12bn-daily-messages-up-from-1m-in-february\/"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 22:03:41 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10255427"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10255427\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "The 1,000-Year GIF"
+            ],
+            "link": [
+              "http:\/\/hyperallergic.com\/237627\/the-1000-year-gif\/"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 02:15:43 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256311"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256311\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Unit Economics"
+            ],
+            "link": [
+              "http:\/\/blog.samaltman.com\/unit-economics"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 18:27:25 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10254187"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10254187\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Unsolved problems with the common core"
+            ],
+            "link": [
+              "https:\/\/liorpachter.wordpress.com\/2015\/09\/20\/unsolved-problems-with-the-common-core\/"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 05:34:01 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256794"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256794\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Syrian war spurs first withdrawal from 'doomsday' Arctic seed vault"
+            ],
+            "link": [
+              "http:\/\/www.smh.com.au\/world\/syrian-war-spurs-first-withdrawal-from-doomsday-arctic-seed-vault-20150921-gjrte0.html"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 23:37:33 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10255821"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10255821\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Why and How Educators Use GitHub"
+            ],
+            "link": [
+              "http:\/\/alexeyza.com\/blog\/2015\/09\/10\/embracing-participatory-culture-in-education\/"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 05:59:17 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256868"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256868\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Introducing Lemur"
+            ],
+            "link": [
+              "http:\/\/techblog.netflix.com\/2015\/09\/introducing-lemur.html"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 19:18:54 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10254511"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10254511\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Chinese scientists row over long-sought protein that senses magnetism"
+            ],
+            "link": [
+              "http:\/\/www.nature.com\/news\/chinese-scientists-row-over-long-sought-protein-that-senses-magnetism-1.18397"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 02:10:21 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256293"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256293\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "How to Rebuild an Attention Span (2013)"
+            ],
+            "link": [
+              "http:\/\/www.theatlantic.com\/health\/archive\/2013\/09\/how-to-rebuild-an-attention-span\/279326\/?single_page=true"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 22:47:42 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10255616"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10255616\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "The Internet of Incompatible Things"
+            ],
+            "link": [
+              "http:\/\/mjg59.dreamwidth.org\/37522.html"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 03:27:24 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256479"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256479\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "TinyCert \u2013 Become Your Own PKI\/CA Authority in a Matter of Minutes"
+            ],
+            "link": [
+              "https:\/\/www.tinycert.org\/"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 05:02:03 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256702"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256702\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Charlie Chaplin\u2019s Scandalous Life and Boundless Artistry"
+            ],
+            "link": [
+              "http:\/\/www.newyorker.com\/culture\/richard-brody\/charlie-chaplins-scandalous-life-and-boundless-artistry"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 23:19:16 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10255752"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10255752\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "BlaBlaCar raises $200M at $1.4B valuation"
+            ],
+            "link": [
+              "http:\/\/www.forbes.com\/sites\/liyanchen\/2015\/09\/16\/meet-europes-newest-unicorn-blablacar-raises-200-million-at-1-4-billion-valuation\/"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 23:53:38 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10255885"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10255885\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Rough idling"
+            ],
+            "link": [
+              "http:\/\/www.tedunangst.com\/flak\/post\/rough-idling"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 20:12:34 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10254828"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10254828\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "A Story about Symbolics Lisp Machines"
+            ],
+            "link": [
+              "http:\/\/kremlin.enterprises\/post\/129364443055\/your-code-is-so-bad-we-had-to-make-etclocal"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 21:31:50 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10255276"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10255276\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Introducing Brotli: a new compression algorithm for the internet"
+            ],
+            "link": [
+              "http:\/\/google-opensource.blogspot.com\/2015\/09\/introducing-brotli-new-compression.html?m=0"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 08:14:20 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10257305"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10257305\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "JSONlite \u2013 A self-contained, serverless, zero-configuration, JSON document store"
+            ],
+            "link": [
+              "https:\/\/github.com\/nodesocket\/jsonlite"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 04:40:09 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256649"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256649\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Facebook\u2019s Restrictions on User Data Cast a Long Shadow"
+            ],
+            "link": [
+              "http:\/\/www.wsj.com\/articles\/facebooks-restrictions-on-user-data-cast-a-long-shadow-1442881332"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 03:42:26 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256506"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256506\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "The Linguistics of Writing an Email Like a Boss"
+            ],
+            "link": [
+              "http:\/\/priceonomics.com\/the-linguistics-of-writing-an-email-like-a-boss\/"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 14:13:24 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10252378"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10252378\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "The Effect of Network and Infrastructural Variables on SPDY\u2019s Performance (2014)"
+            ],
+            "link": [
+              "http:\/\/arxiv.org\/abs\/1401.6508"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 03:21:33 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256462"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256462\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Let\u2019s Write a Firefox Web Extension"
+            ],
+            "link": [
+              "https:\/\/hacks.mozilla.org\/2015\/09\/lets_write_a_webextension\/"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 17:32:25 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10253785"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10253785\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "How Zuck's Old TA Helped Facebook Master Mobile Ads"
+            ],
+            "link": [
+              "http:\/\/www.wired.com\/2015\/09\/zucks-old-ta-helped-facebook-master-mobile-ads\/"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 03:14:58 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256450"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256450\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "A Critique of the CAP Theorem"
+            ],
+            "link": [
+              "http:\/\/arxiv.org\/abs\/1509.05393"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 17:20:26 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10253711"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10253711\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "An annotated version of the Bitcoin paper"
+            ],
+            "link": [
+              "http:\/\/fermatslibrary.com\/s\/bitcoin"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 18:32:51 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10254224"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10254224\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "BurlapCraft \u2013 Using Minecraft to Improve AI in Robotics"
+            ],
+            "link": [
+              "http:\/\/h2r.cs.brown.edu\/announcing-burlapcraft\/"
+            ],
+            "pubDate": [
+              "Mon, 21 Sep 2015 22:40:55 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10255583"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10255583\">Comments<\/a>"
+            ]
+          },
+          {
+            "title": [
+              "Apptimize is Hiring an Android SDK Engineer \u2013 Probably Remote"
+            ],
+            "link": [
+              "http:\/\/apptimize.com\/wp-content\/uploads\/2015\/09\/Apptimize-Android-SDK-Engineer.pdf"
+            ],
+            "pubDate": [
+              "Tue, 22 Sep 2015 05:27:02 +0000"
+            ],
+            "comments": [
+              "https:\/\/news.ycombinator.com\/item?id=10256775"
+            ],
+            "description": [
+              "<a href=\"https:\/\/news.ycombinator.com\/item?id=10256775\">Comments<\/a>"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -8,11 +8,19 @@ When you open the html file you should expect to see a ***failing test***
 
 The challenge is to ***make the test pass***.
 
+
+
+## Tuesday 19th May 2015 > 20150519.html
+
+
+
+
+<!-- old challenges
+
 The order of the challenges is newest first  
 (i.e. reverse chronological, or oldest at the bottom of this readme ...)
 
 To view the challenge in your browser visit: http://morning-challenge.herokuapp.com/
-
 ## Tuesday 19th May 2015 > 20150519.html
 
 Implement JQuery's addClass methods to apply a class to a DOM element.  
@@ -41,3 +49,5 @@ The challenge is understanding how to chain method calls:
 This is what you should expect to see when you load the html in your browser:
 
 ![founderscoders-morning-challenge-failing-test-safari](https://cloud.githubusercontent.com/assets/194400/7677418/be80a454-fd43-11e4-9715-dcd70828a073.png)
+
+-->

@@ -1,6 +1,13 @@
 var Hapi   = require('hapi');
 var server = new Hapi.Server();
-var port   = process.env.PORT || 5000; // let heroku or env set port number
-server.connection({ port: port });
-server.route([{ method: '*', path: '/{param*}', handler: { directory: { path: __dirname, listing: true, index: true } } } ]);
-server.start(function() { console.log('Static Server Listening on: http://127.0.0.1:' +port) });
+server.register(require('inert'), function () {
+  server.connection({ port: 8000 });
+  server.route( {
+    method: 'GET',
+    path: '/{param*}',
+    handler: {
+      directory: { path: '.', redirectToSlash: true, listing: true }
+    }
+  });
+  server.start(function() { console.log('Visit: http://localhost:'+server.info.port) });
+});
