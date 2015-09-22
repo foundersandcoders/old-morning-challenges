@@ -2,33 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="shortcut icon" href="http://www.dwyl.io/images/favicon.ico" type="image/x-icon" />
-    <title>Find an Item in a News (RSS) Feed</title>
+    <title>Find an Item in Today's (Hacker) News (RSS) Feed</title>
   </head>
   <body>
-    <h2> Find an Article in a News Feed!</h2>
+    <h2> Find an Article in Today's (Hacker) News Feed!</h2>
     <ul id='articles'></ul>
-    <p>Use your JavaScript skills to extract the item(s) that passes the tests!<p>
-
-    <p>if you have any questions, shout!</p>
-
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
     <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
-    <!-- Note: only loading JQUERY to Setup this *Challenge*. You will have to do your own "Ajax" for the next few weeks :-) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-      // sets up the problem by loading the rss feed
-      $.getJSON('hackernews-rss.json', function(response){
-        var html = '';
-        response.rss.channel[0].item.forEach(function(item) {
-          html += '<li class="newsitem"><a href="' +item.link +'" >'+item.title +'</a></li>'
-        })
-        $('#articles').append(html);
-      })
-    </script>
+    <script src="setup.js"></script> <!-- setup the challenge -->
 
     <script>
     /**
@@ -38,6 +21,7 @@
      * @retursn {String} title - the title of the news article containin the word.
      */
     function findTitleContainingWord(word) {
+      var title;
       // your code goes here. inspect the DOM to find the title of the article
 
       return title;
@@ -48,7 +32,7 @@
 
     test("Finds the word 'Boss' an article title and returns the full article title", function(assert) {
       var title = findTitleContainingWord('Boss');
-      assert.true(title, 'The Linguistics of Writing an Email Like a Boss',
+      assert.equal(title, 'The Linguistics of Writing an Email Like a Boss',
       'Boom you know how to search an html page!');
     });
 
