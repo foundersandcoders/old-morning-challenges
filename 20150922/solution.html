@@ -23,13 +23,17 @@
     function findTitleContainingWord(word) {
       // for next line, see: http://stackoverflow.com/questions/16285062/get-value-of-list-item
       var text = "textContent" in document ? "textContent" : "innerText";
+      // get all the dom elements that match the ID articles (the ul on the page)
       var articles = document.getElementById('articles');
       var titles = []
+      // loop through the list of articles and extract the title text
       for(var i = 0; i < articles.children.length; i++){
         titles.push(articles.children[i][text]); // pull out all titles
       }
+      // filter through the list of titles and find the one that contains the word
+      // see: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
       var title = titles.filter(function(t){ return t.match(word) });
-      return title[0]; // return the first one we found that matched
+      return title[0]; // return only the first title we found that matched
     }
     </script>
 
