@@ -1,12 +1,14 @@
 # Morning Challenge
 
-**Each morning** we will have a *new* challenge posted in this repository.
+***Each morning*** we will have a ***new challenge*** posted in this repository.
 
 An html file with the day's date will contain a ***failing test***.
 
-When you open the html file you should expect to see a ***failing test***
+The challenge is *understand* the problem (*ask questions if unclear!*)   
+and ***make the test pass*** by writing *just enough* code.
 
-The challenge is to ***make the test pass***.
+> These challenges aren't *meant* to be "*easy*",
+they are solvable with ***Google and Teamwork skills***.
 
 ## Setup
 
@@ -21,26 +23,36 @@ git clone https://github.com/foundersandcoders/morning-challenge.git && cd morni
 ```sh
 npm install
 ```
-#### Start the Static Server
-```sh
+If you have any trouble installing node or the dependencies, shout!
 
+#### Start the Static Server
+
+```sh
+npm start
 ```
+> If you get an error, let us know.
+You wont' be able to make any progress without this working.
 
 
 ## Tuesday 22nd September 2015 > /20150922/index.html
 
 ### "Like A Boss"
 
-Your mission is to (*programatically*) search through the DOM
-of a page and find the article title containing the word "Boss".
+Your challenge *today* is to (*programatically*) search through the
+[DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+of in the `20150922/index.html` page and *find* the article title containing the word "Boss".
 
 Start the static server `npm start` and then visit: http://localhost:8000/20150922/
 
-Now open the file: `20150922/index.html` and
+You should expect to see something like this in your browser:
+
+![like-a-boss-morning-challenge-example](https://cloud.githubusercontent.com/assets/194400/10017620/0b01bc9e-6128-11e5-97fe-342b5ff08485.png)
+
+Now open the file: `20150922/index.html` in your `editor` and
 write the `findTitleContainingWord()` function that passes the test!
 
 
-As if the *challenge* is unclear, *ask* for clarification.  
+If the *challenge* is unclear, *ask* for clarification: https://github.com/foundersandcoders/morning-challenge/issues
 If the *solution* is not apparent to you, dust off your google/teamwork skills!
 
 <!-- old challenges
