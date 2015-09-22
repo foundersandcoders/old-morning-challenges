@@ -8,11 +8,47 @@ When you open the html file you should expect to see a ***failing test***
 
 The challenge is to ***make the test pass***.
 
+## Setup
+
+#### Clone this repo:
+
+```sh
+git clone https://github.com/foundersandcoders/morning-challenge.git && cd morning-challenge
+```
+
+#### install the (node.js) dependencies:
+
+```sh
+npm install
+```
+#### Start the Static Server
+```sh
+
+```
+
+
+## Tuesday 22nd September 2015 > /20150922/index.html
+
+### "Like A Boss"
+
+Your mission is to (*programatically*) search through the DOM
+of a page and find the article title containing the word "Boss".
+
+Start the static server `npm start` and then visit: http://localhost:8000/20150922/
+
+Now open the file: `20150922/index.html` and
+write the `findTitleContainingWord()` function that passes the test!
+
+
+As if the *challenge* is unclear, *ask* for clarification.  
+If the *solution* is not apparent to you, dust off your google/teamwork skills!
+
+<!-- old challenges
+
 The order of the challenges is newest first  
 (i.e. reverse chronological, or oldest at the bottom of this readme ...)
 
 To view the challenge in your browser visit: http://morning-challenge.herokuapp.com/
-
 ## Tuesday 19th May 2015 > 20150519.html
 
 Implement JQuery's addClass methods to apply a class to a DOM element.  
@@ -41,3 +77,5 @@ The challenge is understanding how to chain method calls:
 This is what you should expect to see when you load the html in your browser:
 
 ![founderscoders-morning-challenge-failing-test-safari](https://cloud.githubusercontent.com/assets/194400/7677418/be80a454-fd43-11e4-9715-dcd70828a073.png)
+
+-->
