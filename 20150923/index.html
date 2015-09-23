@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="http://www.dwyl.io/images/favicon.ico" type="image/x-icon" />
+    <title>Order Articles by Date/Time (Newest First)</title>
+    <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
+  </head>
+  <body>
+    <h2>Order Articles by Date/Time (Newest First)</h2>
+    <ul id='articles'></ul>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+
+    <script>
+    function challenge() {
+      /**
+       * orderNewsArticlesByMostRecentDateTime
+       */
+      function orderNewsArticlesByMostRecentDateTime(articles) {
+        // your code goes here. order the articles by pubDate
+        console.log(articles);
+        
+
+        return renderArticles(articles); // don't remove this
+      }
+
+      orderNewsArticlesByMostRecentDateTime(articles); // invoke
+
+      // don't change the test, just solve it above
+      test("The most recent article is", function(assert) {
+        var title = findTitleContainingWord('Boss');
+        assert.equal(title, 'The Linguistics of Writing an Email Like a Boss',
+        'Boom you know how to search an html page!');
+      });
+    } // end challenge
+    </script>
+    <script src="setup.js"></script>
+  </body>
+</html>

@@ -35,25 +35,27 @@ You wont' be able to make any progress without this working.
 
 ## Wednesday 23nd September 2015 `/20150923/index.html`
 
+### "Latest News"
+
+
+
+<hr />
+
+## Tuesday 22nd September 2015  `archive/20150922/index.html`
+
 ### "Like A Boss"
 
+Your challenge *today* is to inspect the
+[**DOM**](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+of in the `20150922/index.html` page and write a function to *find* the article title containing the word "Boss".
 
-
-## Tuesday 22nd September 2015  `/20150922/index.html`
-
-### "Like A Boss"
-
-Your challenge *today* is to (*programatically*) search through the
-[DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-of in the `20150922/index.html` page and *find* the article title containing the word "Boss".
-
-Start the static server `npm start` and then visit: http://localhost:8000/20150922/
+Start the static server `npm start` and then visit: http://localhost:8000/archive/20150922/
 
 You should expect to see something like this in your browser:
 
 ![like-a-boss-morning-challenge-example](https://cloud.githubusercontent.com/assets/194400/10017620/0b01bc9e-6128-11e5-97fe-342b5ff08485.png)
 
-Now open the file: `20150922/index.html` in your `editor` and
+Now open the file: `archive/20150922/index.html` in your `editor` and
 write the `findTitleContainingWord()` function that passes the test!
 
 

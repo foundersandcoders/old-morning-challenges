@@ -1,0 +1,532 @@
+{
+    "rss": {
+        "$": {
+            "version": "2.0"
+        },
+        "channel": [
+            {
+                "title": [
+                    "Hacker News"
+                ],
+                "link": [
+                    "https://news.ycombinator.com/"
+                ],
+                "description": [
+                    "Links for the intellectually curious, ranked by readers."
+                ],
+                "item": [
+                    {
+                        "title": [
+                            "The following companies just betrayed billions of people"
+                        ],
+                        "link": [
+                            "https://www.youbetrayedus.org/"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 06:41:00 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263632"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263632\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "'Happy Birthday' song copyright is not valid, judge rules"
+                        ],
+                        "link": [
+                            "http://www.latimes.com/local/lanow/la-me-ln-happy-birthday-song-lawsuit-decision-20150922-story.html"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 00:41:29 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10262682"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10262682\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "When Your Former Boss Sues You for Starting a Startup"
+                        ],
+                        "link": [
+                            "https://medium.com/@michaeldouble/when-your-former-boss-sues-you-for-starting-a-startup-7a1a40e565a0"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 21:28:22 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10261825"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10261825\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Uber shakes up real estate market with massive lease in Oakland"
+                        ],
+                        "link": [
+                            "http://www.bizjournals.com/sanfrancisco/blog/real-estate/2015/09/exclusive-uber-oakland-sears-building.html"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 02:50:43 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263075"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263075\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "What Happens Next Will Amaze You"
+                        ],
+                        "link": [
+                            "http://idlewords.com/talks/what_happens_next_will_amaze_you.htm"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 03:28:32 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263183"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263183\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Nasa Open Datasets"
+                        ],
+                        "link": [
+                            "https://open.nasa.gov"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 05:42:15 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263479"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263479\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "One in Three Farms Is Using FarmLogs"
+                        ],
+                        "link": [
+                            "http://techcrunch.com/2015/09/22/one-in-three-farms-are-using-farmlogs-to-power-their-yields-with-big-data/"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 21:41:18 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10261911"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10261911\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Bcc: Taming Linux 4.3+ Tracing Superpowers"
+                        ],
+                        "link": [
+                            "http://www.brendangregg.com/blog/2015-09-22/bcc-linux-4.3-tracing.html"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 22:43:16 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10262216"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10262216\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Backblaze B2 Cloud Storage"
+                        ],
+                        "link": [
+                            "https://www.backblaze.com/blog/b2-cloud-storage-provider/"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 16:09:04 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10259507"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10259507\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Herb Sutter's Presentation â€œWriting Good C++14 by Defaultâ€ [pdf]"
+                        ],
+                        "link": [
+                            "https://github.com/isocpp/CppCoreGuidelines/blob/master/talks/Sutter%20-%20CppCon%202015%20day%202%20plenary%20.pdf"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 03:06:50 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263129"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263129\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "New Khan Academy mobile apps, including first official Android app"
+                        ],
+                        "link": [
+                            "https://www.khanacademy.org/about/blog/post/129669853050/khan-academy-in-your-pocket-new-apps-available"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 23:15:41 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10262363"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10262363\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Exploitable vulnerabilities found in Kaspersky Anti-Virus"
+                        ],
+                        "link": [
+                            "http://googleprojectzero.blogspot.com/2015/09/kaspersky-mo-unpackers-mo-problems.html"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 17:48:13 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10260279"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10260279\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Quirky has filed for bankruptcy"
+                        ],
+                        "link": [
+                            "https://www.quirky.com/"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 23:11:39 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10262338"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10262338\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "1 GB = 1000 MB"
+                        ],
+                        "link": [
+                            "https://www.google.com/search?q=1+gb+in+mb"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 07:23:54 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263729"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263729\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "GNU Taler â€“ Electronic payments for a liberal society"
+                        ],
+                        "link": [
+                            "http://taler.net/"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 13:14:32 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10258312"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10258312\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "On Go, Portability, and System Interfaces"
+                        ],
+                        "link": [
+                            "http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 21:22:21 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10261792"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10261792\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Petabyte-Scale Data Pipelines with Docker, Luigi and Elastic Spot Instances"
+                        ],
+                        "link": [
+                            "http://tech.adroll.com/blog/data/2015/09/22/data-pipelines-docker.html"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 02:05:22 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10262963"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10262963\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "A Decade at Google"
+                        ],
+                        "link": [
+                            "http://wp.sigmod.org/?p=1851"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 07:17:31 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263709"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263709\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Counting Objects"
+                        ],
+                        "link": [
+                            "http://githubengineering.com/counting-objects/"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 16:04:49 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10259471"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10259471\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Announcing Meteor 1.2 â€“ ES2015, Angular, React, and More"
+                        ],
+                        "link": [
+                            "http://info.meteor.com/blog/announcing-meteor-1.2"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 16:08:31 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10259501"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10259501\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "US drug company to cut 5,000% price rise after backlash"
+                        ],
+                        "link": [
+                            "http://www.bbc.co.uk/news/world-us-canada-34332363"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 07:08:40 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263683"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263683\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Show HN: Kiddo Paint"
+                        ],
+                        "link": [
+                            "https://github.com/vikrum/kiddopaint"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 17:51:48 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10260302"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10260302\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Medieval Posters"
+                        ],
+                        "link": [
+                            "http://medievalbooks.nl/2015/09/04/medieval-posters/"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 22:03:15 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10262012"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10262012\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Memebox (YC W14) Is Hiring for Engineering and Design"
+                        ],
+                        "link": [
+                            "https://jobs.lever.co/memebox/"
+                        ],
+                        "pubDate": [
+                            "Wed, 23 Sep 2015 05:16:43 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10263430"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10263430\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Object-oriented techniques in C"
+                        ],
+                        "link": [
+                            "http://dmitryfrank.com/articles/oop_in_c"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 18:21:48 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10260517"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10260517\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Silicon Valleyâ€™s Economic Indicator: Caltrain Ridership"
+                        ],
+                        "link": [
+                            "http://blogs.wsj.com/digits/2015/09/18/silicon-valleys-economic-indicator-caltrain-ridership/?hn=dedup"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 17:18:17 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10260066"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10260066\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "TCP in 30 instructions (1993)"
+                        ],
+                        "link": [
+                            "http://www.pdl.cmu.edu/mailinglists/ips/mail/msg00133.html?"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 16:48:38 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10259805"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10259805\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Groupon Is Laying Off 1,100, Shutters Operations in 7 Countries"
+                        ],
+                        "link": [
+                            "http://techcrunch.com/2015/09/22/groupon-is-laying-off-1100-at-a-cost-of-35m-shutters-operations-in-7-countries/"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 13:47:06 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10258475"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10258475\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Show HN: A stack-based pure functional language for touch devices"
+                        ],
+                        "link": [
+                            "https://github.com/pschanely/wildflower-touch"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 13:14:32 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10258311"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10258311\">Comments</a>\n      "
+                        ]
+                    },
+                    {
+                        "title": [
+                            "Why we're leaving Heroku"
+                        ],
+                        "link": [
+                            "https://www.youbetrayedus.org/heroku/"
+                        ],
+                        "pubDate": [
+                            "Tue, 22 Sep 2015 20:17:06 +0000"
+                        ],
+                        "comments": [
+                            "https://news.ycombinator.com/item?id=10261397"
+                        ],
+                        "description": [
+                            "\n        <a href=\"https://news.ycombinator.com/item?id=10261397\">Comments</a>\n      "
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
