@@ -33,8 +33,13 @@ npm start
 > If you get an error, let us know.
 You wont' be able to make any progress without this working.
 
+## Wednesday 23nd September 2015 `/20150923/index.html`
 
-## Tuesday 22nd September 2015 > /20150922/index.html
+### "Like A Boss"
+
+
+
+## Tuesday 22nd September 2015  `/20150922/index.html`
 
 ### "Like A Boss"
 
