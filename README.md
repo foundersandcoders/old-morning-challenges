@@ -33,22 +33,39 @@ npm start
 > If you get an error, let us know.
 You wont' be able to make any progress without this working.
 
+## Wednesday 23nd September 2015 `/20150923/index.html`
 
-## Tuesday 22nd September 2015 > /20150922/index.html
+### "Latest News"
+
+When you open the page you will see:
+
+![un-ordered](https://cloud.githubusercontent.com/assets/194400/10041674/b27bfd30-61dd-11e5-97f9-ea60826fb940.png)
+
+The challenge is to write the `orderNewsArticlesByMostRecentDateTime` function
+
+Which will order the news articles by date so that the first article is the most recent one. e.g:
+
+![ordered](https://cloud.githubusercontent.com/assets/194400/10041677/b5932d40-61dd-11e5-9c79-87342f707bb2.png)
+
+Thus passing the test!
+
+<hr />
+
+## Tuesday 22nd September 2015  `archive/20150922/index.html`
 
 ### "Like A Boss"
 
-Your challenge *today* is to (*programatically*) search through the
-[DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-of in the `20150922/index.html` page and *find* the article title containing the word "Boss".
+Your challenge *today* is to inspect the
+[**DOM**](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+of in the `20150922/index.html` page and write a function to *find* the article title containing the word "Boss".
 
-Start the static server `npm start` and then visit: http://localhost:8000/20150922/
+Start the static server `npm start` and then visit: http://localhost:8000/archive/20150922/
 
 You should expect to see something like this in your browser:
 
 ![like-a-boss-morning-challenge-example](https://cloud.githubusercontent.com/assets/194400/10017620/0b01bc9e-6128-11e5-97fe-342b5ff08485.png)
 
-Now open the file: `20150922/index.html` in your `editor` and
+Now open the file: `archive/20150922/index.html` in your `editor` and
 write the `findTitleContainingWord()` function that passes the test!
 
 

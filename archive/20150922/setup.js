@@ -1,12 +1,8 @@
 // Hello Curious Person! :-)
 
 function fetchArticles(){
-  $.getJSON('hackernews-rss.json', function(response){
-    var html = '';
-    response.rss.channel[0].item.forEach(function(item) {
-      html += '<li class="newstitle">'+item.title +'</li>'
-    })
-    $('#articles').append(html);
+  $.get('news-articles.html', function(response){
+    $('#articles').append(response);
   })
 }
 
