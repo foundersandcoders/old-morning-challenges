@@ -15,13 +15,13 @@
     <script>
     function challenge() {
       /**
-       * orderNewsArticlesByMostRecentDateTime
+       * orderNewsArticlesByMostRecentDateTime - as its name suggests
+       * orders the news articles by the pubDate to display the newest first
+       * articles array is loaded for you. you "just" have to sort it
        */
       function orderNewsArticlesByMostRecentDateTime(articles) {
         // your code goes here. order the articles by pubDate
         console.log(articles);
-        
-
         return renderArticles(articles); // don't remove this
       }
 
@@ -29,9 +29,9 @@
 
       // don't change the test, just solve it above
       test("The most recent article is", function(assert) {
-        var title = findTitleContainingWord('Boss');
-        assert.equal(title, 'The Linguistics of Writing an Email Like a Boss',
-        'Boom you know how to search an html page!');
+        var titles = document.getElementsByTagName('span');
+        var title = titles[0].innerHTML
+        assert.equal(title, '1 GB = 1000 MB', 'Its Offical! 1 GB is One Thousand MB!');
       });
     } // end challenge
     </script>

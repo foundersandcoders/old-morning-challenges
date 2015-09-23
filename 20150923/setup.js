@@ -3,7 +3,7 @@
 function renderArticles(articles) {
   // this is ONE way of rednering things. its not the best. you will discover better. ;-)
   var html = '';
-  var style = ' style="background-color:rgb(28, 184, 65); padding: 0.5em;" ';
+  var style = ' style="background-color:#D3D3D3; padding: 0.5em;" ';
   articles.forEach(function(item) {
      item.pubDate = item.pubDate.replace(' +0000', '');
      html += '<p class="newsitem">';

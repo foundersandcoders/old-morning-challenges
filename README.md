@@ -37,7 +37,17 @@ You wont' be able to make any progress without this working.
 
 ### "Latest News"
 
+When you open the page you will see:
 
+![un-ordered](https://cloud.githubusercontent.com/assets/194400/10041674/b27bfd30-61dd-11e5-97f9-ea60826fb940.png)
+
+The challenge is to write the `orderNewsArticlesByMostRecentDateTime` function
+
+Which will order the news articles by date so that the first article is the most recent one. e.g:
+
+![ordered](https://cloud.githubusercontent.com/assets/194400/10041677/b5932d40-61dd-11e5-9c79-87342f707bb2.png)
+
+Thus passing the test!
 
 <hr />
 
