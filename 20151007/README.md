@@ -28,7 +28,7 @@ var myApp = makeApp();
 myApp.add(function (req, res, next) {
   res.write('<h1>Hello!</h1>');
   // ADD SOMETHING HERE
-}
+})
 
 // add something here
 
