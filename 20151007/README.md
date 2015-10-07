@@ -7,7 +7,7 @@ Here is a basic setup you can use for this morning's challenge
 function makeApp () {
   var middlewareStore = [];
 
-  function app () {
+  function app (/* something here? */) {
      // TODO
   }
 
@@ -23,10 +23,10 @@ function makeApp () {
 First, make it so that I can write this code:
 
 ```js
-function myApp = makeApp();
+var myApp = makeApp();
 
 myApp.add(function (req, res, next) {
-  req.write('<h1>Hello!</h1>');
+  res.write('<h1>Hello!</h1>');
   // ADD SOMETHING HERE
 }
 
