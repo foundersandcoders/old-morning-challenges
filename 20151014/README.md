@@ -14,12 +14,12 @@ If the string represents an id, return the _element_ that contains that id. But 
 ### Step 2
 Add two methods to the returned element ```addClass``` and ```removeClass```. The ```addClass``` method adds a class:
 
-> ```$('.class').addClass('show')```
+> $('.class').addClass('show')
 
 ...whilst the ```removeClass``` method removes a class:
 
-> ```$('.class').removeClass('hide')```
+> $('.class').removeClass('hide')
 
 Each of these methods returns the same element with the same methods attached so we can method chain:
 
->```$('.class').addClass('show').removeClass('hide')```
+> $('.class').addClass('show').removeClass('hide')
